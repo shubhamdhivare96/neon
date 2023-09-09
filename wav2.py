@@ -103,7 +103,7 @@ print("\nDone")
 !gdown https://drive.google.com/uc\?id\=1Rp_mykKNtBYURqZsEcIWGzPqXbI3NZwG
 from google.colab import files
 from io import BytesIO
-uploaded = files.upload()
+uploaded = files.upload(
 
 # Commented out IPython magic to ensure Python compatibility.
 #@title 五、上传图片
